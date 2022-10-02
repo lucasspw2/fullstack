@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Helvetica Condensed';
+    src: url('./Fonts/Helvetica-Condensed.woff2') format('woff2'),
+        url('Helvetica-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica 25';
+    src: url('./Fonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
+        url('./Fonts/HelveticaNeue-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Fonts/Roboto-Light.woff2') format('woff2'),
+        url('./Fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./Fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:focus {
+    outline: transparent;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: helvetica;
+
+}
+
+body, input, textarea, button{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 1rem;
+}
